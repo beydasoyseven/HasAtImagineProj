@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HasAtImagineProj">
         <activity
+            android:name=".customerPart.CustShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agriculturalistPart.AgrShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agriculturalistPart.AgricultMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agriculturalistPart.AgricultSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agriculturalistPart.AgricultSignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customerPart.CustSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customerPart.CustSignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

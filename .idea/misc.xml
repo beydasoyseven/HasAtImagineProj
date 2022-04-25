@@ -3,7 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/drawable/buttonhakkinda.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/buttonhasta.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/buttonmain.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/buttonsatis.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/buttonurun.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/orta.xml" value="0.2445" />
+        <entry key="app/src/main/res/layout/activity_agr_shop.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_agricult_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_agricult_sign_in.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_agricult_sign_up.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_agriculturalist.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/activity_agriculturalist_sign_in.xml" value="0.19927536231884058" />
+        <entry key="app/src/main/res/layout/activity_cust_main.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/activity_cust_shop.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_cust_sign_in.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_cust_sign_up.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_customer.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
