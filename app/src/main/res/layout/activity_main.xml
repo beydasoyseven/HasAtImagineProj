@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light"
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout6"
         android:layout_width="340dp"
         android:layout_height="200dp"
         android:orientation="vertical"
@@ -20,16 +22,53 @@
             android:id="@+id/agriculturalistButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Üretici Girişi"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/buttonmain"
             android:gravity="center"
-            android:layout_marginBottom="8dp" />
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="Üretici Girişi" />
 
         <Button
             android:id="@+id/customerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
             android:background="@drawable/buttonmain"
             android:text="Müşteri Girişi" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="819dp"
+        android:layout_height="747dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852"
+        app:srcCompat="@drawable/shapeyellow" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="319dp"
+        android:layout_height="502dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="434dp"
+        android:layout_height="136dp"
+        android:background="@color/yeloow"
+        android:layout_marginBottom="624dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
