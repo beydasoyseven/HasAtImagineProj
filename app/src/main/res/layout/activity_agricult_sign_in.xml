@@ -8,10 +8,10 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="383dp"
-        android:layout_height="478dp"
-        android:orientation="vertical"
+        android:layout_width="385dp"
+        android:layout_height="503dp"
         android:layout_marginTop="118dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
