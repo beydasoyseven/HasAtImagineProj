@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout6"
         android:layout_width="340dp"
         android:layout_height="200dp"
         android:orientation="vertical"
@@ -22,22 +20,20 @@
             android:id="@+id/agriculturalistButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:text="Üretici Girişi"
             android:background="@drawable/buttonmain"
             android:gravity="center"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:text="Üretici Girişi" />
+            android:layout_marginBottom="8dp" />
 
         <Button
             android:id="@+id/customerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:textStyle="bold"
             android:background="@drawable/buttonmain"
             android:text="Müşteri Girişi" />
     </LinearLayout>
+<<<<<<< HEAD
+=======
 
     <ImageView
         android:id="@+id/imageView2"
@@ -71,4 +67,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+>>>>>>> parent of 07a5111 (hata düzeltme)
 </androidx.constraintlayout.widget.ConstraintLayout>
