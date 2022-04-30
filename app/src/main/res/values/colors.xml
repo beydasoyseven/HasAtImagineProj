@@ -12,4 +12,11 @@
     <color name="sapgreen">#22A570</color>
     <color name="orange">#FEBA48</color>
     <color name="light">#F4FFFC</color>
+    <color name="logo">#F1B83A</color>
+    <color name="logoo">#C8F4FFFC</color>
+    <color name="logooo">#8FF1B83A</color>
+    <color name="logoblue">#36A0CD</color>
+    <color name="logogreen">#AE25A346</color>
+    <color name="logokahve">#66462B</color>
+    <color name="yeloow">#FFC900</color>
 </resources>

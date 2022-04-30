@@ -5,23 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".agriculturalistPart.AgricultSignUpActivity">
+
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="418dp"
-        android:layout_height="445dp"
+        android:layout_width="427dp"
+        android:layout_height="537dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="416dp"
             android:layout_height="55dp"
+            android:layout_gravity="center"
             android:layout_marginTop="1dp"
             android:gravity="center"
             android:text="Yeni Üyelik"
-            android:layout_gravity="center"
             android:textSize="24dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/user_signup_surname"
@@ -185,6 +186,8 @@
         </LinearLayout>
 
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
