@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.HasAtImagineProj" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/yeloow</item>
+        <item name="colorPrimary">@color/gifdarkgreen</item>
         <item name="colorPrimaryVariant">@color/yeloow</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

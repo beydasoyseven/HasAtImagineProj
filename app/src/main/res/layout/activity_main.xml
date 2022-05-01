@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout6"
-        android:layout_width="340dp"
-        android:layout_height="200dp"
+        android:layout_width="491dp"
+        android:layout_height="247dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,55 +20,41 @@
 
         <Button
             android:id="@+id/agriculturalistButton"
-            android:layout_width="match_parent"
+            android:layout_width="390dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="46dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/buttonmain"
             android:gravity="center"
+            android:text="Üretici Girişi"
             android:textSize="16dp"
-            android:textStyle="bold"
-            android:text="Üretici Girişi" />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/customerButton"
-            android:layout_width="match_parent"
+            android:layout_width="390dp"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:layout_marginTop="14dp"
             android:background="@drawable/buttonmain"
-            android:text="Müşteri Girişi" />
+            android:text="Müşteri Girişi"
+            android:textSize="16dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="819dp"
-        android:layout_height="747dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852"
-        app:srcCompat="@drawable/shapeyellow" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="319dp"
-        android:layout_height="502dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="100dp"
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="487dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="434dp"
-        android:layout_height="136dp"
-        android:background="@color/yeloow"
-        android:layout_marginBottom="624dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/farm" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

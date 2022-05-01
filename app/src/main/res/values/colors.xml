@@ -19,4 +19,8 @@
     <color name="logogreen">#AE25A346</color>
     <color name="logokahve">#66462B</color>
     <color name="yeloow">#FFC900</color>
+    <color name="gifdarkgreen">#AACC21</color>
+    <color name="giflightgree">#b9d549</color>
+    <color name="gifgrey">#707070</color>
+    <color name="giforange">#c6701c</color>
 </resources>
