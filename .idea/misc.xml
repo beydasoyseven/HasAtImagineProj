@@ -9,12 +9,18 @@
         <entry key="app/src/main/res/drawable/buttonmain.xml" value="0.176" />
         <entry key="app/src/main/res/drawable/buttonsatis.xml" value="0.176" />
         <entry key="app/src/main/res/drawable/buttonurun.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/firsatlarbutton.xml" value="0.279" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.279" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.279" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
         <entry key="app/src/main/res/drawable/orta.xml" value="0.2445" />
+        <entry key="app/src/main/res/drawable/raindrop.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/raindropsnd.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/weatherlin.xml" value="0.2415" />
         <entry key="app/src/main/res/layout/activity_agr_shop.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_agricult_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_agricult_sign_in.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_agricult_sign_up.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_agricult_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_agriculturalist.xml" value="0.22554347826086957" />
         <entry key="app/src/main/res/layout/activity_agriculturalist_sign_in.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout/activity_cust_main.xml" value="0.22447916666666667" />
