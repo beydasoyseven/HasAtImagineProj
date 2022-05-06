@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.279" />
+        <entry key="app/src/main/res/drawable/barshape.xml" value="0.2785" />
         <entry key="app/src/main/res/drawable/buttonhakkinda.xml" value="0.176" />
         <entry key="app/src/main/res/drawable/buttonhasta.xml" value="0.176" />
         <entry key="app/src/main/res/drawable/buttonmain.xml" value="0.176" />
@@ -19,16 +20,20 @@
         <entry key="app/src/main/res/drawable/weatherlin.xml" value="0.2415" />
         <entry key="app/src/main/res/layout/activity_agr_shop.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_agricult_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_agricult_sign_in.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_agricult_sign_in.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_agricult_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_agriculturalist.xml" value="0.22554347826086957" />
         <entry key="app/src/main/res/layout/activity_agriculturalist_sign_in.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout/activity_cust_main.xml" value="0.22447916666666667" />
-        <entry key="app/src/main/res/layout/activity_cust_shop.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_cust_shop.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_cust_sign_in.xml" value="0.23854166666666668" />
         <entry key="app/src/main/res/layout/activity_cust_sign_up.xml" value="0.23854166666666668" />
         <entry key="app/src/main/res/layout/activity_customer.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/activity_hastaliktespit.xml" value="0.2604166666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_newsandopport.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_urun_ekim.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_uzmanla_gorus.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HasAtImagineProj">
         <activity
+            android:name=".uzmanlaGorus"
+            android:exported="false" />
+        <activity
+            android:name=".urunEkim"
+            android:exported="false" />
+        <activity
+            android:name=".hastaliktespit"
+            android:exported="false" />
+        <activity
+            android:name=".newsandopport"
+            android:exported="false" />
+        <activity
             android:name=".customerPart.CustShopActivity"
             android:exported="false" />
         <activity

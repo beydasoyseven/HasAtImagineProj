@@ -9,25 +9,25 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="421dp"
+        android:layout_width="match_parent"
         android:layout_height="236dp"
         app:layout_constraintBottom_toTopOf="@+id/flowerLin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028">
 
         <LinearLayout
             android:id="@+id/ruzgarLin"
             android:layout_width="87dp"
             android:layout_height="58dp"
-            android:layout_marginStart="344dp"
             android:background="@drawable/raindrop"
             android:orientation="horizontal"
             android:rotation="270"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.82"></LinearLayout>
+            app:layout_constraintBottom_toBottomOf="@+id/rutubetLin"
+            app:layout_constraintStart_toEndOf="@+id/rutubetLin"
+            app:layout_constraintTop_toTopOf="@+id/rutubetLin"
+            app:layout_constraintVertical_bias="1.0"></LinearLayout>
 
         <LinearLayout
             android:id="@+id/rutubetLin"
@@ -38,10 +38,10 @@
             android:rotation="150"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.775"
+            app:layout_constraintHorizontal_bias="0.734"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.82">
+            app:layout_constraintVertical_bias="0.825">
 
         </LinearLayout>
 
@@ -54,10 +54,9 @@
             android:rotation="190"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/buttonLin"
-            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintHorizontal_bias="0.933"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.494"></LinearLayout>
+            app:layout_constraintTop_toTopOf="parent"></LinearLayout>
 
         <LinearLayout
             android:id="@+id/dereceLin"
@@ -69,7 +68,7 @@
             android:rotation="220"
             app:layout_constraintBottom_toTopOf="@+id/yagmurLin"
             app:layout_constraintEnd_toStartOf="@+id/buttonLin"
-            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintHorizontal_bias="0.933"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"></LinearLayout>
@@ -82,19 +81,20 @@
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.947"
+            app:layout_constraintHorizontal_bias="0.949"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.125">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/haberlerbutton"
                 android:layout_width="98dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/yeloow"
                 android:gravity="center"
+                android:onClick="haberlerbutton"
                 android:text="Haberler ve Fırsatlar"
                 android:textSize="10dp" />
         </LinearLayout>
@@ -121,17 +121,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/HastalıkButton"
+                android:id="@+id/hastalikbutton"
                 android:layout_width="14dp"
                 android:layout_height="110dp"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="18dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttonhasta"
+                android:onClick="hastalikbutton"
                 android:text="Hastalık Tespit" />
 
             <Button
-                android:id="@+id/urunEkimButton"
+                android:id="@+id/ekimButton"
                 android:layout_width="14dp"
                 android:layout_height="110dp"
                 android:layout_gravity="bottom"
@@ -140,6 +141,7 @@
                 android:layout_marginBottom="-8dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttonurun"
+                android:onClick="ekimbutton"
                 android:text="Ürün Ekim" />
         </LinearLayout>
 
@@ -161,7 +163,7 @@
                 android:text="Satışa Gönder" />
 
             <Button
-                android:id="@+id/hakkındabutton"
+                android:id="@+id/uzmanButton"
                 android:layout_width="14dp"
                 android:layout_height="110dp"
                 android:layout_gravity="top"
@@ -171,6 +173,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttonhakkinda"
                 android:backgroundTint="@color/white"
+                android:onClick="uzmanButton"
                 android:text="Uzmanla Görüş" />
         </LinearLayout>
 
@@ -197,6 +200,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
+        android:background="@drawable/barshape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -206,91 +210,100 @@
             android:layout_height="match_parent">
 
             <LinearLayout
+                android:id="@+id/hesabımLin"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                <TextView
+                    android:id="@+id/button5"
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Hesabım"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@+id/bildirimlerLin"
                 android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="30dp"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
                     app:srcCompat="@drawable/ic_baseline_notifications_24" />
 
                 <TextView
                     android:id="@+id/button2"
                     android:layout_width="70dp"
-                    android:layout_height="48dp"
+                    android:layout_height="20dp"
                     android:clickable="true"
                     android:gravity="center"
-                    android:text="Bildirimler" />
+                    android:text="Bildirimler"
+                    android:textSize="10dp" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/searchLin"
                 android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="30dp"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
                     app:srcCompat="@drawable/ic_baseline_search_24" />
 
                 <TextView
                     android:id="@+id/button3"
                     android:layout_width="70dp"
-                    android:layout_height="48dp"
+                    android:layout_height="20dp"
                     android:clickable="true"
                     android:gravity="center"
-                    android:text="Ara" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/hesabımLin"
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="30dp"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
-
-                <TextView
-                    android:id="@+id/button5"
-                    android:layout_width="70dp"
-                    android:layout_height="48dp"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:text="Hesabım" />
-
+                    android:text="Ara"
+                    android:textSize="10dp" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ayarlarLin"
                 android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
                     app:srcCompat="@drawable/ic_baseline_settings_24" />
 
                 <TextView
                     android:id="@+id/button4"
                     android:layout_width="70dp"
-                    android:layout_height="48dp"
+                    android:layout_height="20dp"
                     android:clickable="true"
                     android:gravity="center"
-                    android:text="Ayarlar" />
+                    android:text="Ayarlar"
+                    android:textSize="10dp" />
             </LinearLayout>
 
         </androidx.gridlayout.widget.GridLayout>
