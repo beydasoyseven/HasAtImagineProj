@@ -98,6 +98,19 @@
                 android:text="Haberler ve Fırsatlar"
                 android:textSize="10dp" />
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/agrBack"
+            android:layout_width="54dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="4dp"
+            android:clickable="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
@@ -198,7 +211,7 @@
     <LinearLayout
         android:id="@+id/barLin"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="58dp"
         android:orientation="horizontal"
         android:background="@drawable/barshape"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -213,9 +226,9 @@
                 android:id="@+id/hesabımLin"
                 android:layout_width="70dp"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="28dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -239,8 +252,8 @@
                 android:id="@+id/bildirimlerLin"
                 android:layout_width="70dp"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -263,8 +276,8 @@
                 android:id="@+id/searchLin"
                 android:layout_width="70dp"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -287,7 +300,7 @@
                 android:id="@+id/ayarlarLin"
                 android:layout_width="70dp"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
 
                 <ImageView

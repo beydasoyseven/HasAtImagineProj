@@ -54,5 +54,11 @@ public class AgricultMainActivity extends AppCompatActivity {
                 startActivity(new Intent(AgricultMainActivity.this, uzmanlaGorus.class));
             }
         });
+        findViewById(R.id.agrBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AgricultMainActivity.this, MainActivity.class));
+            }
+        });
     }
 }
